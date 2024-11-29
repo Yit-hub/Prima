@@ -1,0 +1,13 @@
+.productos .seccion1 {
+    margin-top: -40px;
+    background-image: url("https://prima.es/wp-content/themes/prima/assets/images/bg_productos_bottom.png"),url("https://prima.es/wp-content/themes/prima/assets/images/bg_productos_xs.jpg");
+    background-repeat: no-repeat,no-repeat;
+    background-attachment: scroll,scroll;
+    background-size: 100%,cover;
+    background-position: center bottom,right;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff
+}
