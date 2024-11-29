@@ -1,0 +1,40 @@
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<header class="header">
+    <div class="header-interior">
+        <div class="topnav topnav-izquierda" id="myTopnav">
+            <a href="#home">QUIENES SOMOS</a>
+            <a href="#news">PRODUCTOS</a>
+            <a href="#contact">PRIMA CERO</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <div class="topnav topnav-derecha" id="myTopnav">
+            <a href="#home">FOOD SERVICE</a>
+            <a href="#news">SOSTENIBILIDAD</a>
+            <a href="#contact">CONTACTO</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+
+    </div>
+    <!--icono de Prima-->
+    <a href="https://prima.es/">
+        <img class="logo" src="https://prima.es/wp-content/themes/prima/assets/images/logo_menu.png" alt="prima logo">
+    </a>
+
+</header>
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>

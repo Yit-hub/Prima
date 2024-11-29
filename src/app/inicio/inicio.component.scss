@@ -1,0 +1,45 @@
+$fondo: #d7b451;
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nexa', Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
+main{
+    display: block;
+}
+.anuncio{
+    background-color: $fondo;
+    background-image: url('https://prima.es/wp-content/themes/prima/assets/images/index_sect2_bottom_rojo.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom -2px center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+.quien{
+    background-color: #D00022;
+}
+h2{
+    font-size: 90px;
+    line-height: 77px;
+    font-weight: 400;
+    color: white;
+}
+.section__button{
+    transition: all 0.3s;
+    border: 1px solid white;
+    padding: 14px 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+.section__button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black !important;
+  }
