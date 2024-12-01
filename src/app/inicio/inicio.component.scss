@@ -1,3 +1,9 @@
+@font-face {
+    font-display: swap;
+    font-family: "Meltowsan";
+    src: url("https://prima.es/wp-content/themes/prima/assets/fonts/MeltowSan200-Regular.ttf")
+}
+
 $fondo: #d7b451;
 body{
     margin: 0;
@@ -22,11 +28,21 @@ main{
 .quien{
     background-color: #D00022;
 }
-h2{
+.quien h2{
+    font-family: 'Meltowsan', Georgia, "Times New Roman", Times, serif ;
+    color: #fff;
+    font-weight: 400 ;
+    font-style: normal;
     font-size: 90px;
     line-height: 77px;
+
+}
+.quien p{
+    font-family: 'Nexa', Georgia, "Times New Roman", Times, serif;
     font-weight: 400;
-    color: white;
+    color: #fff;
+    font-size: 32px;
+    line-height: 48px;
 }
 .section__button{
     transition: all 0.3s;
@@ -43,3 +59,108 @@ h2{
     background-color: white;
     color: black !important;
   }
+  .index .section2 {
+    background-color: #d00022
+}
+
+.index .section2,.index .section5 {
+    background-image: url("/wp-content/themes/prima/assets/images/index_sect2_bottom.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100%;
+    background-position: bottom 10px center
+}
+
+.index .section2 h2,.index .section3 h2,.index .section5 h2 {
+    font-size: 3.2rem;
+    line-height: 12vw;
+    font-weight: 400
+}
+
+.index .section2 p,.index .section3 p,.index .section5 p {
+    font-size: 22px
+}
+
+@media (min-width: 575px) {
+    .index .section2 h2,.index .section3 h2,.index .section5 h2 {
+        font-size:8vw;
+        line-height: 6vw;
+        font-weight: 400
+    }
+
+    .index .section2 p,.index .section3 p,.index .section5 p {
+        font-size: 22px
+    }
+}
+
+@media (min-width: 768px) {
+    .index .section2 h2,.index .section3 h2,.index .section5 h2 {
+        font-size:11vw;
+        line-height: 10vw;
+        font-weight: 400
+    }
+
+    .index .section2 p,.index .section3 p,.index .section5 p {
+        font-size: 24px
+    }
+}
+
+@media (min-width: 992px) {
+    .index .section2 h2,.index .section3 h2,.index .section5 h2 {
+        font-size:56px;
+        line-height: 50px;
+        font-weight: 400
+    }
+
+    .index .section2 p,.index .section3 p,.index .section5 p {
+        font-size: 24px
+    }
+}
+
+@media (min-width: 1024px) {
+    .index .section2 h2,.index .section3 h2,.index .section5 h2 {
+        font-size:80px;
+        line-height: 70px;
+        font-weight: 400
+    }
+
+    .index .section2 p,.index .section3 p,.index .section5 p {
+        font-size: 24px
+    }
+}
+
+@media (min-width: 1200px) {
+    .index .section2 h2,.index .section3 h2,.index .section5 h2 {
+        font-size:90px;
+        line-height: 77px;
+        font-weight: 400
+    }
+
+    .index .section2 p,.index .section3 p,.index .section5 p {
+        font-size: 32px
+    }
+}
+
+.index .changeImageRojo {
+    background-image: url("https://prima.es/wp-content/themes/prima/assets/images/index_sect2_bottom_rojo.png") !important
+}
+
+.index .changeImageAzul {
+    background-image: url("https://prima.es/wp-content/themes/prima/assets/images/index_sect2_bottom_azul.png") !important
+}
+
+.index .changeImageAmarillo {
+    background-image: url("https://prima.es/wp-content/themes/prima/assets/images/index_sect2_bottom_amarillo.png") !important
+}
+
+.index .animacionRojo {
+    background-color: #d00022
+}
+
+.index .animacionAzul {
+    background-color: #0e569e
+}
+
+.index .animacionAmarillo {
+    background-color: #e9c122
+}

@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+.footer {
+  position: relative;
+  z-index: 1000;
+  margin-top: -62px;
+  background-image: url("https://prima.es/wp-content/themes/prima/assets/images/bg_footer.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+footer {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+.container-fluid {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 120px;
+  transition: all 1s;
+  width: 150px;
+}
+
+@media (min-width: 768px) {
+  .logo {
+    width: 150px;
+  }
+}
+@media (min-width: 1200px) {
+  .logo {
+    width: 200px;
+  }
+}
+.links {
+  margin: 30px 20px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.links a {
+  margin: 0 5px;
+  text-decoration: none;
+  color: #fff !important;
+}
+
+.salseo {
+  padding-top: 120px;
+  width: 75%;
+  max-width: 400px;
+  color: #fff;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+@media (min-width: 575px) {
+  .salseo {
+    margin-top: 0;
+  }
+}
+@media (min-width: 768px) {
+  .salseo {
+    margin-top: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .salseo {
+    margin-top: 56px;
+  }
+}
+.interior {
+  margin-top: -2px;
+}/*# sourceMappingURL=footer.component.css.map */
