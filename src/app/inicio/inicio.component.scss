@@ -143,16 +143,16 @@ main{
 
 
 
-
-
-
-
 /* Contenedor principal */
 .carousel {
     position: relative;
     width: 100%;
-    height: 400px;
+    height: 70vh;
     overflow: hidden;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100%;
+    background-position: bottom 10px center;
   }
   
   /* Fondo */
@@ -182,6 +182,7 @@ main{
     height: auto;
     opacity: 0;
     position: absolute;
+    //margin-top: -15%;
     transition: opacity 1s ease-in-out; /* Suaviza la aparición/desaparición */
   }
   
