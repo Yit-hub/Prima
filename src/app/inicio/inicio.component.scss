@@ -141,26 +141,53 @@ main{
     }
 }
 
-.index .changeImageRojo {
-    background-image: url("https://prima.es/wp-content/themes/prima/assets/images/index_sect2_bottom_rojo.png") !important
-}
 
-.index .changeImageAzul {
-    background-image: url("https://prima.es/wp-content/themes/prima/assets/images/index_sect2_bottom_azul.png") !important
-}
 
-.index .changeImageAmarillo {
-    background-image: url("https://prima.es/wp-content/themes/prima/assets/images/index_sect2_bottom_amarillo.png") !important
-}
 
-.index .animacionRojo {
-    background-color: #d00022
-}
 
-.index .animacionAzul {
-    background-color: #0e569e
-}
 
-.index .animacionAmarillo {
-    background-color: #e9c122
-}
+
+/* Contenedor principal */
+.carousel {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+  }
+  
+  /* Fondo */
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: background-color 1s ease-in-out; /* Suaviza el cambio de color */
+    z-index: 1;
+  }
+  
+  /* Contenedor de imágenes */
+  .images {
+    position: relative;
+    display: flex;
+    height: 100%;
+    z-index: 2; /* Coloca las imágenes encima del fondo */
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Estilo de las imágenes */
+  .images img {
+    width: 300px;
+    height: auto;
+    opacity: 0;
+    position: absolute;
+    transition: opacity 1s ease-in-out; /* Suaviza la aparición/desaparición */
+  }
+  
+  /* Imagen activa */
+  .images img.active {
+    opacity: 1;
+    position: relative;
+  }
+  

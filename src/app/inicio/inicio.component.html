@@ -24,20 +24,26 @@
 
             </div>
         </div>
-        <div class="productos">
-            <div class="mensaje">
-                <h2>Nuestros productos</h2>
-                <div class="botes">
-                    <img src="https://prima.es/wp-content/themes/prima/assets/images/ket.png" alt="ketchup">
-                    <img src="https://prima.es/wp-content/themes/prima/assets/images/mos.png" alt="mostaza">
-                    <img src="https://prima.es/wp-content/themes/prima/assets/images/may.png" alt="mayonesa">
-                </div>
-                <p>Salsea y dippea a tu gusto. Convierte tus platos en irresistibles con Prima.</p>
-                <a class="section__button" href="/productos">Descúbrelos</a>
-            </div>
-            <div class="animacion">
 
+
+        <div class="carousel">
+            <div class="col-md-6">
+                <h2>¿Quiénes somos?</h2>
+                <p>En Prima llevamos más de 40 años innovando y buscando la excelencia.</p>
+                <a class="section__button" href="https://prima.es/quienes-somos/">Conócenos</a>
+            </div>
+            <a class="section__button" href="/productos">Descúbrelos</a>
+
+            <div class="background" [ngStyle]="{'background-color': colors[currentIndex]}"></div>
+            <!-- Contenedor de imágenes -->
+            <div class="images">
+                <img *ngFor="let image of images; let i = index" [src]="image" [class.active]="i === currentIndex"
+                    alt="Producto" />
             </div>
         </div>
+
+
+
+
     </main>
 </div>
