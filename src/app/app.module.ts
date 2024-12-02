@@ -13,6 +13,7 @@ import { SostenibilidadComponent } from './sostenibilidad/sostenibilidad.compone
 import { ContactoComponent } from './contacto/contacto.component';
 import { PoliticaComponent } from './politica/politica.component';
 import { InicioComponent } from './inicio/inicio.component';
+import { BienvenidaComponent } from './bienvenida/bienvenida.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { InicioComponent } from './inicio/inicio.component';
     SostenibilidadComponent,
     ContactoComponent,
     PoliticaComponent,
-    InicioComponent
+    InicioComponent,
+    BienvenidaComponent
   ],
   imports: [
     BrowserModule,

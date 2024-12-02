@@ -8,9 +8,10 @@ import { SostenibilidadComponent } from './sostenibilidad/sostenibilidad.compone
 import { ContactoComponent } from './contacto/contacto.component';
 import { PoliticaComponent } from './politica/politica.component';
 import { InicioComponent } from './inicio/inicio.component';
+import { BienvenidaComponent } from './bienvenida/bienvenida.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/inicio', pathMatch: 'full' },
+  { path: '', redirectTo: '/bienvenida', pathMatch: 'full' },
   { path: 'inicio', component: InicioComponent},
   { path: 'somos', component: SomosComponent},
   { path: 'productos', component: ProductosComponent},
@@ -18,7 +19,9 @@ const routes: Routes = [
   { path: 'foodservice', component: FoodserviceComponent},
   { path: 'sostenibilidad', component: SostenibilidadComponent},
   { path: 'contacto', component: ContactoComponent},
-  { path: 'politica', component: PoliticaComponent}
+  { path: 'politica', component: PoliticaComponent},
+  { path: 'bienvenida', component: BienvenidaComponent}
+  
 ];
 
 @NgModule({
