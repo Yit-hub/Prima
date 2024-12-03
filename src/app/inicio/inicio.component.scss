@@ -192,3 +192,22 @@ main{
     position: relative;
   }
   
+  .section4{
+    margin-top: -5vw;
+    min-height: 100vh;
+    background-image: url("https://prima.es/wp-content/themes/prima/assets/images/bg_index_bodegon_negro.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    background-attachment: scroll
+  }
+  .section5{
+    min-height: 100vh;
+    background-image: url("https://prima.es/wp-content/themes/prima/assets/images/index_bodegon_rasgado.png"),url("https://prima.es/wp-content/themes/prima/assets/images/bg_foodservice.png");
+    background-repeat: no-repeat,no-repeat;
+    background-size: 100%,cover;
+    background-position: center top,center;
+    background-attachment: scroll,scroll;
+    z-index: 900;
+    position: relative
+  }

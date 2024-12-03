@@ -1,0 +1,29 @@
+{
+    "nombre": "Kétchup",
+    "descripcion": "Para fabricar nuestro bote de 290g necesitamos más de 6 unidades del mejor tomate de origen España. Nuestro kétchup está disponible tanto en nuestra nueva botella 100% reciclada como en prácticas bolsitas monodosis de papel para llevar donde tú quieras.",
+    "ingredientes": [
+      "Tomate (159 g. por 100 g. de ketchup)",
+      "Jarabe de glucosa y fructosa",
+      "Vinagre",
+      "Sal",
+      "Almidón modificado",
+      "Aroma",
+      "Conservadores (sorbato potásico y benzoato sódico)",
+      "Puede contener trazas de MOSTAZA"
+    ],
+    "informacion_nutricional": {
+      "valor_energetico": "344kj/82kcal",
+      "grasas": "0g",
+      "grasas_saturadas": "0g",
+      "hidratos_de_carbono": "19g",
+      "azucares": "17g",
+      "proteinas": "1.4g",
+      "sal": "2.0g"
+    },
+    "envases": [
+      "Botella 100% reciclada",
+      "Bolsitas monodosis de papel"
+    ],
+    "peso": "290g"
+  }
+  

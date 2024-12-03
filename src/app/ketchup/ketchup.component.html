@@ -1,0 +1,26 @@
+<h1>{{ nombre }}</h1>
+
+<p><strong>Descripción:</strong> {{ descripcion }}</p>
+
+<h3>Ingredientes:</h3>
+<ul>
+  <li *ngFor="let ingrediente of ingredientes">{{ ingrediente }}</li>
+</ul>
+
+<h3>Información Nutricional:</h3>
+<ul>
+  <li><strong>Valor energético:</strong> {{ valorEnergetico }}</li>
+  <li><strong>Grasas:</strong> {{ grasas }}</li>
+  <li><strong>Grasas saturadas:</strong> {{ grasasSaturadas }}</li>
+  <li><strong>Hidratos de carbono:</strong> {{ hidratosDeCarbono }}</li>
+  <li><strong>Azúcares:</strong> {{ azucares }}</li>
+  <li><strong>Proteínas:</strong> {{ proteinas }}</li>
+  <li><strong>Sal:</strong> {{ sal }}</li>
+</ul>
+
+<h3>Envases disponibles:</h3>
+<ul>
+  <li *ngFor="let envase of envases">{{ envase }}</li>
+</ul>
+
+<p><strong>Peso:</strong> {{ peso }}</p>
