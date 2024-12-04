@@ -182,7 +182,6 @@ main{
     height: auto;
     opacity: 0;
     position: absolute;
-    //margin-top: -15%;
     transition: opacity 1s ease-in-out; /* Suaviza la aparición/desaparición */
   }
 
@@ -190,8 +189,8 @@ main{
   /* Imagen activa */
   .images img.active {
     opacity: 1;
-    position: relative;
-
+    position: absolute;
+    padding: 60px;
 
   }
   
@@ -241,5 +240,6 @@ main{
     left: 33%;
   }
   .sobre{
-    position:relative;
+    position: relative;
+    margin-top: -240px;
   }
