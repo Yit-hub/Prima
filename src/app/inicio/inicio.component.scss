@@ -185,11 +185,14 @@ main{
     //margin-top: -15%;
     transition: opacity 1s ease-in-out; /* Suaviza la aparición/desaparición */
   }
-  
+
+
   /* Imagen activa */
   .images img.active {
     opacity: 1;
     position: relative;
+
+
   }
   
   .section4{
@@ -210,4 +213,33 @@ main{
     background-attachment: scroll,scroll;
     z-index: 900;
     position: relative
+  }
+  .texto{
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+  }
+  .texto h2{
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 70px;
+    font-family: 'Meltowsan', Georgia, "Times New Roman", Times, serif ;
+    margin-bottom: 20px;
+
+  }
+  .texto p{
+    font-family: "Nexa", Georgia, "Times New Roman", Times, serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-bottom: 60px;
+
+  }
+  .gif{
+    position: relative;
+    left: 33%;
+  }
+  .sobre{
+    position:relative;
   }

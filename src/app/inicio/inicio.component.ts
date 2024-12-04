@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./inicio.component.scss']
 })
 export class InicioComponent implements OnInit{
+
   images = [
     'https://prima.es/wp-content/themes/prima/assets/images/ket.png',
     'https://prima.es/wp-content/themes/prima/assets/images/mos.png',
