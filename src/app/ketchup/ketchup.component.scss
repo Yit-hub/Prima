@@ -1,3 +1,48 @@
-.preview{
-    background-image: url("https://prima.es/wp-content/themes/prima/assets/images/bg_productos_bottom.png"),url("https://prima.es/wp-content/themes/prima/assets/images/bg_single.png")
+.p1 .preview{
+    background-image: url("https://prima.es/wp-content/themes/prima/assets/images/bg_productos_bottom.png"),url("https://prima.es/wp-content/themes/prima/assets/images/bg_single.png");
+    top: 200px;
+    background-repeat: no-repeat,no-repeat;
+
+}
+.ketchup{
+    color: white;
+    font-family: "Meltowsan", Georgia, "Times New Roman", Times, serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+}
+.tomate{
+    width: 134px;
+    height: 103px;
+    position: relative;
+    top: 600px;
+    left: 45%;
+}
+.descripcion{
+    text-align: center;
+    font-family: "Nexa", Georgia, "Times New Roman", Times, serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 34px;
+}
+.adicional h2{
+    font-family: "Meltowsan", Georgia, "Times New Roman", Times, serif;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+
+}
+.adicional p{
+    font-family: "Nexa", Georgia, "Times New Roman", Times, serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 34px;
+}
+.adicional{
+    padding-bottom: 50px;
+    padding-left: 20px;
+}
+ul{
+    list-style: none;
 }
