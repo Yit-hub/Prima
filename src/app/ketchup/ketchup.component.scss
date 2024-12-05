@@ -1,7 +1,7 @@
-.p1 .preview{
+.preview{
     background-image: url("https://prima.es/wp-content/themes/prima/assets/images/bg_productos_bottom.png"),url("https://prima.es/wp-content/themes/prima/assets/images/bg_single.png");
-    top: 200px;
     background-repeat: no-repeat,no-repeat;
+    padding-top: 1rem!important;
 
 }
 .ketchup{
@@ -11,13 +11,6 @@
     font-size: 48px;
     line-height: 48px;
     text-align: center;
-}
-.tomate{
-    width: 134px;
-    height: 103px;
-    position: relative;
-    top: 600px;
-    left: 45%;
 }
 .descripcion{
     text-align: center;
